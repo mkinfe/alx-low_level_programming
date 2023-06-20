@@ -1,4 +1,4 @@
-include <stdio.h>
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -20,9 +20,9 @@ int main(void)
 		z = x + y;
 		x = y;
 		y = z;
-		_putchar("%lu, ", z);
+		printf("%lu, ", z);
 	}
 
-	_putchar("%lu\n", z + x);
+	printf("%lu\n", z + x);
 	return (0);
 }

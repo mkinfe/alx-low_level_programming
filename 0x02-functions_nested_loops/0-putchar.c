@@ -1,3 +1,4 @@
+#include "main.c"
 #include "0-putchar.c"
 
 /**
